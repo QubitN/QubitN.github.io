@@ -72,7 +72,7 @@ a {
     text-decoration: none;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    word-break: break-word;
+    word-break: break-all;
 }
 
 a:hover {
