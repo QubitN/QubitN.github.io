@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Vibe Schism - Jonas' Corner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Jonas' Corner</h1>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h2>The Vibe Schism: Factory Farming Code vs. The Art of Verification</h2>
+                <p class="date">February 8, 2026</p>
+
+                <p>In my last post, <a href="https://qubitn.github.io/post-ai-development.html">"Post-AI Development: Surviving the Era of Material Disengagement,"</a> I argued that "vibe coding"—the practice of generating software based on intent rather than syntax—risks creating a generation of "insecure spaghetti" code and engineers who have lost the ability to deeply understand the systems they build. I called for "Calibrated Trust" and a return to architectural mastery.</p>
+
+                <p>Then, I watched Steve Yegge’s recent talk from the AI Engineer Summit, <a href="https://www.youtube.com/watch?v=zuJyJP517Uw">Steve Yegge's Vibe Coding Manifesto</a>. Yegge, a legendary figure in software engineering, offers a view that is diametrically opposed to my own. If I am the "Conservationist" warning of soil erosion, Yegge is the "Industrialist" pointing at the massive harvest. Where I see a "Productivity Paradox," Yegge sees a "10x" revolution.</p>
+
+                <p>Comparing these two worldviews offers a fascinating glimpse into the schism currently forming in the software world.</p>
+
+                <h3>The Industrialist View: The Age of "Agentic Engineering"</h3>
+                
+                <p>Yegge’s argument is provocative and blunt: if you are still using an Integrated Development Environment (IDE) to manually type code, "you are a bad engineer." He describes the shift to agentic coding not as a loss of craft, but as an evolution from "subsistence agriculture" (hand-crafting every line) to "factory farming" (using heavy machinery to produce at scale). To Yegge, the code itself is just an intermediate representation—a byproduct of the agent that humans shouldn't need to obsess over.</p>
+
+                <p>This view is gaining powerful allies. Just days ago, AI pioneer Andrej Karpathy declared the era of simple "vibing" over. He now advocates for "Agentic Engineering," noting that humans are not writing code 99% of the time; they are orchestrating agents who do (<a href="https://www.indiatoday.in/technology/news/story/vibe-coding-era-over-ai-guru-who-coined-the-term-says-time-has-come-for-agentic-engineering-now-2670266-2026-02-05">"Vibe coding era over?"</a>). Karpathy argues that this isn't "no-code"; it is a new, higher-stakes form of engineering where you manage behavior rather than syntax.</p>
+
+                <p>Similarly, Amjad Masad, CEO of Replit, recently predicted that this shift will effectively eliminate "soul-crushing" corporate drudgery by the end of 2026 (<a href="https://www.webpronews.com/replits-ceo-believes-ai-will-obliterate-soul-crushing-corporate-work-by-2026/">"Replit's CEO"</a>). In Masad’s view, the "industrialization" of code allows a single developer to act as an entrepreneur, spinning up entire product lines that previously required teams of twenty. The friction I praised as necessary for understanding? To the Industrialist, that is just waste.</p>
+
+                <h3>The Conservationist View: The High Cost of "Spaghetti"</h3>
+
+                <p>However, the data supporting the "Conservationist" fear is becoming harder to ignore. While the Industrialists promise speed, recent reports suggest we are borrowing that speed from our future selves.</p>
+
+                <p>A 2026 report indicates that while AI adoption boosts initial velocity, it comes with a heavy tax: AI-assisted Pull Requests have 1.7x more issues than human-authored ones, and technical debt in these repositories is increasing by 30-41% (<a href="https://www.agilepainrelief.com/blog/ai-generated-code-quality.html">"AI-Generated Code Quality"</a>).</p>
+
+                <p>Furthermore, the security implications are terrifying. Veracode’s GenAI Code Security Report found that AI models introduce security vulnerabilities in 45% of cases, with Java code seeing failure rates as high as 70% (<a href="https://www.eenewseurope.com/en/report-finds-ai-generated-code-poses-security-risks/">"Report finds AI-generated code"</a>). The report explicitly notes that while models are getting better at syntax, they are <em>not</em> improving at security. This validates the concern I raised in my previous post about "Insecure Spaghetti."</p>
+
+                <p>As AlterSquare notes, the "hidden maintenance cost" of AI code is skyrocketing because AI often lacks project-specific context, leading to fragmented logic that is "excruciatingly difficult to debug" (<a href="https://altersquare.com/ai-generated-code-maintenance-costs/">"Why AI-Generated Code Costs More"</a>). When we treat code as disposable, we fill our codebases with what is essentially "single-use plastic"—cheap to produce, but toxic to the environment long-term.</p>
+
+                <h3>The Synthesis: The "Manager" of the Machine</h3>
+
+                <p>Despite our opposing conclusions, Yegge, Karpathy, and I actually agree on the central metaphor. We all view current AI agents as <strong>Junior Developers</strong>.</p>
+
+                <p>Yegge calls them "interns in a box" who might accidentally delete your database. Karpathy calls them "aliens" that need strict oversight. I called them "reckless." The divergence lies in what we do with that realization.</p>
+
+                <ul>
+                    <li><strong>The Industrialist Solution:</strong> Because the AI is a reckless junior, we must become better <em>managers</em>. We need to build orchestration frameworks (like Yegge’s "Vibe Coder" tool) to corral them.</li>
+                    <li><strong>The Conservationist Solution:</strong> Because the AI is a reckless junior, we must maintain <em>mastery</em>. We cannot effectively manage what we do not understand.</li>
+                </ul>
+
+                <h3>The Future: The Verification Gap</h3>
+
+                <p>Looking forward to 2027, the battle won't be about whether we use AI—we all will. The conflict will be between <strong>Creation</strong> and <strong>Verification</strong>.</p>
+
+                <p>We are entering an era where writing code is free, but <em>verifying</em> code is expensive. The "Factory Farm" will produce abundant code, but much of it will be tainted. The most valuable engineers of the next decade won't be the "10x creators" who can prompt the fastest; they will be the <strong>"10x Verifiers"</strong>—the Architects who have the deep, manual experience to look at a 10,000-line AI-generated PR and spot the one security flaw that will bankrupt the company.</p>
+
+                <p>The mastermind remains in the machine, but only if the human refuses to just "vibe" and starts to truly <em>engineer</em>.</p>
+
+                <h3>Works Cited</h3>
+                <ul>
+                    <li>"AI-Generated Code Quality and the Challenges We All Face." <em>Agile Pain Relief</em>, 2026, <a href="https://www.agilepainrelief.com/blog/ai-generated-code-quality.html">https://www.agilepainrelief.com/blog/ai-generated-code-quality.html</a>.</li>
+                    <li>"Replit's CEO Believes AI Will Obliterate 'Soul-Crushing' Corporate Work by 2026." <em>WebProNews</em>, 8 Feb. 2026, <a href="https://www.webpronews.com/replits-ceo-believes-ai-will-obliterate-soul-crushing-corporate-work-by-2026/">https://www.webpronews.com/replits-ceo-believes-ai-will-obliterate-soul-crushing-corporate-work-by-2026/</a>.</li>
+                    <li>"Report finds AI-generated code poses security risks." <em>eeNews Europe</em>, 30 July 2025, <a href="https://www.eenewseurope.com/en/report-finds-ai-generated-code-poses-security-risks/">https://www.eenewseurope.com/en/report-finds-ai-generated-code-poses-security-risks/</a>.</li>
+                    <li>Rodrigues, Jonas. "Post-AI Development: Surviving the Era of Material Disengagement." <em>Jonas' Corner</em>, 2 Feb. 2026, <a href="https://qubitn.github.io/post-ai-development.html">https://qubitn.github.io/post-ai-development.html</a>.</li>
+                    <li>"Steve Yegge's Vibe Coding Manifesto: Why Claude Code Isn't It & What Comes After the IDE." <em>YouTube</em>, uploaded by Latent Space, 26 Dec. 2025, <a href="https://www.youtube.com/watch?v=zuJyJP517Uw">https://www.youtube.com/watch?v=zuJyJP517Uw</a>.</li>
+                    <li>"Vibe coding era over? AI guru who coined the term says time has come for agentic engineering now." <em>India Today</em>, 5 Feb. 2026, <a href="https://www.indiatoday.in/technology/news/story/vibe-coding-era-over-ai-guru-who-coined-the-term-says-time-has-come-for-agentic-engineering-now-2670266-2026-02-05">https://www.indiatoday.in/technology/news/story/vibe-coding-era-over-ai-guru-who-coined-the-term-says-time-has-come-for-agentic-engineering-now-2670266-2026-02-05</a>.</li>
+                    <li>"Why AI-Generated Code Costs More to Maintain Than Human-Written Code." <em>AlterSquare</em>, 5 Nov. 2025, <a href="https://altersquare.com/ai-generated-code-maintenance-costs/">https://altersquare.com/ai-generated-code-maintenance-costs/</a>.</li>
+                </ul>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Jonas Rodrigues</p>
+        </footer>
+    </div>
+</body>
+</html>
